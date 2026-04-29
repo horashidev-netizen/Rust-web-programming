@@ -1,21 +1,27 @@
 mod enums;
 mod apis;
 mod structs;
-
-use crate::structs::done::Done;
+use clap::Parser;
 use crate::enums::TaskStatus;
-use crate::structs::pending::Pending;
 use crate::apis::basic_actions::create::create;
 
+
+#[derive(Parser, Debug)]
+#[command(version, about, long_about = None)]
+struct Args {
+    #[arg(short, long)]
+    title: String,
+    #[arg(short, long)]
+    status: String,
+}
+
 fn main() {
-    let done = TaskStatus::DONE;
-    println!("{}", done);
-    let done = Done::new("Shopping");
-    println!("{}", done.super_struct.title);
-    println!("{}", done.super_struct.status);
-    let pending = Pending::new("laundry");
-    println!("{}", pending.super_struct.title);
-    println!("{}", pending.super_struct.status);
-    let to_do_item = create("washing", TaskStatus::PENDING);
+    let args = Args::parse();
+    let status_enum = TaskStatus::from_string(&args.status).unwrap();
+    let to_do_item = create(
+        &args.title,
+        status_enum
+    );
     println!("{}", to_do_item);
 }
+

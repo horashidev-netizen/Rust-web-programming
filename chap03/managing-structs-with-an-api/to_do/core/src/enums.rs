@@ -6,6 +6,16 @@ pub enum TaskStatus {
     DONE
 }
 
+impl TaskStatus {
+    pub fn from_string(status: &String) -> Result<TaskStatus, String> {
+        match status.to_uppercase().as_str() {
+            "PENDING" => Ok(TaskStatus::PENDING),
+            "DONE" => Ok(TaskStatus::DONE),
+            _ => Err(format!("Unknown task status: {}", status))
+        }
+    }
+}
+
 impl std::fmt::Display for TaskStatus {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         match &self {
@@ -14,6 +24,9 @@ impl std::fmt::Display for TaskStatus {
         }
     }
 }
+
+
+
 
 #[cfg(test)]
 mod tests {
