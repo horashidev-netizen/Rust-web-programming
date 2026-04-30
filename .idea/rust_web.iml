@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chap02/mapping-messages-with-macros/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap02/metaprogramming-with-macros/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap02/verifying-with-traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/building-structs/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/handling_error/target" />
@@ -38,6 +39,7 @@
       <excludeFolder url="file://$MODULE_DIR$/chap02/mapping-messages-with-macros/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap02/metaprogramming-with-macros/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap02/verifying-with-traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/target" />
     </content>
     <orderEntry type="inheritedJdk" />
