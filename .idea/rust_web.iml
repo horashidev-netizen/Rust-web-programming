@@ -21,7 +21,9 @@
       <sourceFolder url="file://$MODULE_DIR$/chap02/mapping-messages-with-macros/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap02/metaprogramming-with-macros/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap02/verifying-with-traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/implementing-a-http-server-in-hyper/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/implementing-our-own-async-task-queue/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/tokio-tcp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/building-structs/target" />
@@ -40,7 +42,9 @@
       <excludeFolder url="file://$MODULE_DIR$/chap02/mapping-messages-with-macros/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap02/metaprogramming-with-macros/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap02/verifying-with-traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/implementing-a-http-server-in-hyper/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/implementing-our-own-async-task-queue/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/tokio-tcp/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/target" />
     </content>
