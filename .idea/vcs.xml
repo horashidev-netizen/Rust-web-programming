@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chap02/checking-struct-state-with-the-compiler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chap02/configuring-out-functions-with-traits" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chap02/mapping-messages-with-macros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chap02/metaprogramming-with-macros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chap02/verifying-with-traits" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/building-structs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/handling_error" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/lifetime" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/mapping-data-with-enums" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/mapping-data-with-hashmap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/mutable-borrows" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/storing-data-in-arrays" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap01/storing-data-in-vectors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap03/building-with-cargo/web_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap03/documenting-with-cargo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap03/interacting-with-cargo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chap03/managing-structs-with-an-api" vcs="Git" />
+  </component>
+</project>
