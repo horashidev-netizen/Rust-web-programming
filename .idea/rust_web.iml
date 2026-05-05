@@ -26,6 +26,10 @@
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/tokio-tcp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap05-handling-http-requests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap05-handling-http-requests/to_do/core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap05-handling-http-requests/to_do/dal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chap05-handling-http-requests/to_do/networking/actix_server/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/building-structs/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/handling_error/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap01/lifetime/target" />
@@ -47,6 +51,7 @@
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/tokio-tcp/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-async-and-await-with-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/chap04-async-rust/understanding-threads-and-processes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chap05-handling-http-requests/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
