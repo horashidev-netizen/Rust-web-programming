@@ -1,9 +1,0 @@
-[package]
-name = "to-do-actix-server"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-tokio = {version = "1.52.1", features = ["full"]}
-actix-web = {version = "4.13.0"}
-to-do-core = {path = "./../../core"}
